@@ -1318,25 +1318,28 @@ fieldset[disabled] .btn-default:hover {
 }
 
 .btn-primary {
-  color: #fff;
+  color:  rgb(255 255 255 / 77%);
   background-color: transparent;
   border-color: rgb(64 194 50)
+}
+.btn-primary:hover{
+  background-color: rgb(64 194 50);
+  color:#333;
 }
 
 .btn-primary.focus,
 .btn-primary:focus {
-  color: #001aff;
+  color:  rgb(255 255 255 / 77%);
   background-color: transparent;
-  border-color: #000d80
+  border-color:  rgb(64 194 50);
 }
 
 .btn-primary.active,
 .btn-primary:active,
-.btn-primary:hover,
 .open>.btn-primary.dropdown-toggle {
-  color: #001aff;
+  color: rgb(255 255 255 / 77%);
   background-color: transparent;
-  border-color: #0014c2
+  
 }
 
 .btn-primary.active.focus,
@@ -1348,9 +1351,9 @@ fieldset[disabled] .btn-default:hover {
 .open>.btn-primary.dropdown-toggle.focus,
 .open>.btn-primary.dropdown-toggle:focus,
 .open>.btn-primary.dropdown-toggle:hover {
-  color: #001aff;
+  color:  rgb(255 255 255 / 77%);
   background-color: transparent;
-  border-color: #000d80
+  border-color:  rgb(64 194 50);
 }
 
 .btn-primary.active,
@@ -2603,19 +2606,6 @@ button.close {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 .visible-print {
   display: none !important
 }
@@ -2626,20 +2616,14 @@ button.close {
   display: none !important
 }
 
-
-
 .visible-print-inline {
   display: none !important
 }
 
 
-
 .visible-print-inline-block {
   display: none !important
 }
-
-
-
 
 
 #site-border-bottom,
@@ -2714,7 +2698,6 @@ body.minimal {
 }
 
 
-
 .white-text-container h1,
 .white-text-container h2,
 .white-text-container h3,
@@ -2725,14 +2708,9 @@ body.minimal {
   
 }
 
-.white-text-container a {
-  color: rgb(255 255 255 / 77%);
-}
-
 .section-container-spacer {
   margin-bottom: 30px
 }
-
 
 
 .section-container {
@@ -2740,12 +2718,9 @@ body.minimal {
 }
 
 
-
 .section-container.only-container {
   min-height: 84vh
 }
-
-
 
 .background-image-container {
   background-size: cover;
@@ -2766,12 +2741,7 @@ body.minimal {
   border-color: #000
 }
 
-.btn-primary:focus,
-.btn-primary:hover {
-  color: #fff;
-  border-color: #001aff;
-  background-color: #001aff
-}
+
 
 .btn-info:focus,
 .btn-info:hover {
