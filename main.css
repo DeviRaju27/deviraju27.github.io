@@ -15,7 +15,7 @@ html {
 
 body {
   margin: 0;
-  background-color: #000;
+  /* background-color: #000; */
   
 }
 h1,p{
@@ -1318,7 +1318,7 @@ fieldset[disabled] .btn-default:hover {
 }
 
 .btn-primary {
-  color:  #565353;
+  color:  #ffffffbf;
   background-color: transparent;
   border-color: rgb(64 194 50)
 }
@@ -2673,7 +2673,7 @@ body {
 body.minimal {
   border: none;
   padding: 0;
-  background-color: rgba(249, 246, 246, 0.808);
+  background-color: #000000ea;
 }
 
 .hero-full-container h1 {
@@ -2867,7 +2867,7 @@ textarea {
   color:#565353;
 }
 .link-text {
-  color:#565353;
+  color:#24f922;
   font-weight: 500;
 }
 .link-text:hover {

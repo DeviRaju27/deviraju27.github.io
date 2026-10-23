@@ -555,7 +555,7 @@ font-size: 20px;
   .text-header{
     font-family: monospace;
     font-size:18px;
-    color:#565353
+    color:#ffffffbf;
   }
   
   .text-name-header,
@@ -564,19 +564,19 @@ font-size: 20px;
     font-family: monospace;
     font-size:18px;
     margin-bottom: 20px;
-    color:#000000b0;
+    color:#ffffff85;
   }
   
   .text-name {
     font-family: 'Roboto';
     font-size:60px;
-    color:#565353;
+    color:#ffffffbd;
   }
   
   .text-title {
     font-family: 'Roboto';
     font-size:45px;
-    color:#565353;
+    color:#ffffffbd;
   }
   
   .text-name span,
@@ -593,19 +593,19 @@ font-size: 20px;
   .text-strings{
     font-family: monospace;
     font-size:18px;
-    color:#565353;
+    color:#ffffffbf;
   }
   .logo img{
     width: 75px;
   }
   
   .section-header{
-    color:#565353;
+    color:#ffffff6b;
     font-size: 60px;
     margin-bottom: 50px;
   }
   .section-about p{
-    color:#565353;
+    color:#ffffffab;
     font-size: 16px;
     text-align: center;
     font-weight: 500;
@@ -641,7 +641,7 @@ font-size: 20px;
   }
   .contact-content{
     font-size: 16px;
-    color:#565353;
+    color:#ffffffa6;
   }
   
   .white-text-container a:hover, .container-right-top a:hover  {
@@ -1550,7 +1550,7 @@ font-size: 20px;
 }
 .navbar-nav-links li a{
   font-size: 18px;
-  color:#000000b0;
+  color:#ffffff78;
   font-family: monospace;
   text-decoration: none;
 }
